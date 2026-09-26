@@ -1,0 +1,5 @@
+ERROR 2026-09-26 CRITICAL EXCEPTION
+Traceback (most recent call last):
+  File "src/app.py", line 4, in process_transaction
+    amount = user_data["amount"]
+KeyError: 'amount'
